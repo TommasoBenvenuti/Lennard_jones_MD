@@ -1,0 +1,11 @@
+! input (n_step, timestep in fs, numero specie, temperatura K, densità, Ensemble)
+    500000 1   2   100 0.35 NVT
+CH4 100
+H2 100
+
+
+
+
+
+
+
