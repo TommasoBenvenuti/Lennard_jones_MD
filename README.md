@@ -16,7 +16,7 @@ Bussi-Parrinello-Donadio Thermostat has been implemented and tested. Equations o
 
 - `Inizializza.f90`
   - Builds the initial  particle random configuration (positions) inside a periodic simulation box
-  - Sets box size and velocities accordingly to Boltzmann distribution.
+  - Sets velocities accordingly to Boltzmann distribution.
 
 - `Forze.f90`
   - Computes  forces using the Lennard-Jones potential.
