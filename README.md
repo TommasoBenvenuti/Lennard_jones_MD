@@ -42,8 +42,8 @@ Bussi-Parrinello-Donadio Thermostat has been implemented and tested. Equations o
 ## Input format
 See `input.txt` for a concrete example. Typical parameters (as read by `input.txt`) may include:
 - N: number of particles
-- density (rho) or box size
-- initial temperature (T0)
+- density (rho) in reduced units 
+- initial temperature 
 - dt: time step
 - nsteps: number of integration steps
 - ensemble (NVT or NVE)
