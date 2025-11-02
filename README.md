@@ -5,7 +5,7 @@ The code is intended to run classical molecular dynamics (MD) simulations using 
 It produces quantities such as radial distribution function, velocity auto and cross correlation function, Spectra of VACF.
 Bussi-Parrinello-Donadio Thermostat has been implemented and tested. Equations of motion are solved by position Verlet algorithm.
 
-S
+
 ## Main files and routine descriptions
 - `input.f90`
   - Handles reading simulation parameters and general configuration.
