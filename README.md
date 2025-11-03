@@ -37,7 +37,7 @@ Bussi-Parrinello-Donadio Thermostat has been implemented and tested. Equations o
   - Routines for spectral analysis: computing a power spectrum of VACF from time series produced by the simulation.
 
 - `Vacfblocking.f90`
-  - Computes the velocity autocorrelation function (VACF) and Cross correlation using HPC techniques.
+  - Computes the velocity autocorrelation function (VACF) and Cross correlation using optimization techniques.
 
 ## Input format
 See `input.txt` for a concrete example. Typical parameters (as read by `input.txt`) may include:
@@ -57,4 +57,8 @@ Depending on the configuration, the code typically produces:
 - Files for VACF and spectral data (e.g., time vs VACF, or frequency vs spectral amplitude).
 - Optional snapshot files with positions/velocities for visualization.
 Check the output/print statements in `Integrazione.f90`, `Vacfblocking.f90`, and `Spectrum.f90` for the exact filenames and formats.
+
+## How to use 
+
+Compile using fopenmp 
 
