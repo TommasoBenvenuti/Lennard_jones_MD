@@ -1,4 +1,5 @@
-# Lennard_jones_MD — Fortran Routines (Routine_f90)
+# Lennard_jones_MD 
+
 
 ## Purpose
 The code is intended to run classical molecular dynamics (MD) simulations using the Lennard-Jones potential to study multi-component mixture (i.e. methan-hydrogen), both in NVE and NVT ensemble
